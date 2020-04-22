@@ -10,7 +10,7 @@ const vm = new Vue({
   },
   methods: {
     puxarProdutos() {
-      fetch('../produtos.json')
+      fetch('https://github.com/jhony2488/virtual-store-with-vue.js/edit/master/js/app.js')
         .then(response => response.json())
         .then(r => {
           this.produtos = r
